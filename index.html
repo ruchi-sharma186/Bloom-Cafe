@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom Café | Artisan Coffee Experience</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Glass Navigation -->
+    <header>
+        <nav class="glass-nav">
+            <div class="logo">
+                <span class="gradient-text">Bloom Café</span>
+                <i class="fas fa-leaf"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section with Gradient Background -->
+    <section class="hero" id="home">
+        <div class="hero-content glass-card">
+            <h1 class="gradient-text">Sip. Relax. Bloom.</h1>
+            <p>Experience artisan coffee crafted with passion in our vibrant oasis</p>
+            <div class="hero-btns">
+                <a href="#menu" class="btn gradient-btn">View Menu</a>
+                <a href="#contact" class="btn outline-btn">Visit Us</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Menu Section with Glass Cards -->
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <h2 class="section-title gradient-text">Our Signature Blends</h2>
+            <p class="section-subtitle">Handcrafted with premium ingredients</p>
+            
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="coffee">Coffee</button>
+                <button class="category-btn" data-category="tea">Tea</button>
+                <button class="category-btn" data-category="specialty">Specialty</button>
+            </div>
+            
+            <div class="menu-grid">
+                <!-- Menu items will be loaded via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section with Gradient Background -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-content glass-card">
+                <h2 class="gradient-text">Our Story</h2>
+                <p>Founded in 2015, Bloom Café began as a small coffee cart with a vision to bring vibrant, high-quality coffee experiences to our community. Today, we're proud to serve ethically-sourced, artisan beverages in a space designed for connection and creativity.</p>
+                <p>Our team of passionate baristas crafts each drink with care, using only the finest ingredients and innovative techniques.</p>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3 class="gradient-text">100+</h3>
+                        <p>Happy Customers Daily</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="gradient-text">25+</h3>
+                        <p>Unique Drink Options</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3 class="gradient-text">8</h3>
+                        <p>Skilled Baristas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <h2 class="section-title gradient-text">Café Moments</h2>
+        <p class="section-subtitle">Experience our vibrant atmosphere</p>
+        
+        <div class="gallery-grid">
+            <div class="gallery-item glass-card" style="background-image: url('https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80')">
+                <div class="gallery-overlay">
+                    <i class="fas fa-expand"></i>
+                </div>
+            </div>
+            <div class="gallery-item glass-card" style="background-image: url('https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80')">
+                <div class="gallery-overlay">
+                    <i class="fas fa-expand"></i>
+                </div>
+            </div>
+            <div class="gallery-item glass-card" style="background-image: url('https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80')">
+                <div class="gallery-overlay">
+                    <i class="fas fa-expand"></i>
+                </div>
+            </div>
+            <div class="gallery-item glass-card" style="background-image: url('https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80')">
+                <div class="gallery-overlay">
+                    <i class="fas fa-expand"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title gradient-text">What Our Customers Say</h2>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial-slide">
+                    <div class="testimonial-card glass-card">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"The Bloom Latte is my absolute favorite! The floral notes combined with the rich espresso create such a unique and delightful experience."</p>
+                        <div class="customer">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Sarah J.">
+                            <h4>Sarah J.</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- More testimonials would be added here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info glass-card">
+                    <h2 class="gradient-text">Visit Us</h2>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>123 Bloom Street, Garden District</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>(555) 123-4567</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>hello@bloomcafe.com</p>
+                    </div>
+                    <div class="hours">
+                        <h3>Opening Hours</h3>
+                        <p>Monday - Friday: 7am - 8pm</p>
+                        <p>Saturday - Sunday: 8am - 6pm</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form glass-card">
+                    <h2 class="gradient-text">Send Us a Message</h2>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn gradient-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="gradient-text">Bloom Café</span>
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <p>© 2023 Bloom Café. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Careers</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
